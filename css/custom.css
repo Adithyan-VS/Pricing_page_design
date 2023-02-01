@@ -5,7 +5,7 @@
 
 .cards:hover {
     box-shadow: 5px 6px 6px 2px #cacdcf;
-    transform: scale(1.1);
+    transform: scale(1.0);
     color: #4149e4;
     z-index: 5;
     top: -10%;
@@ -31,6 +31,16 @@
 .btn:hover {
     background-color: #3d43af;
 }
+
+
+/*for showing up and down arrow in number input type*/
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+}
+
+
+/*https://dirask.com/posts/JavaScript-animate-position-changing-pqayZp*/
 
 @media only screen and (max-width: 600px) {
     .tag {
